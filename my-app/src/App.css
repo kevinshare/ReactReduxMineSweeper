@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.LOSS h1{
+  padding: 30px;
+  animation: word-intro infinite 20s linear;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.Cell {
+  display: block;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 1px;
+  vertical-align: center;
+}
+.Cell h3{
+  vertical-align: center;
+  margin: auto 0;
+  animation: word-intro infinite 20s linear;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.App-intro {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-top: 40%;
+  padding-bottom: 30%;
+  font-size: large;
+  height: 80px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes App-intro {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes word-intro {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
