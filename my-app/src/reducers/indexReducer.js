@@ -1,8 +1,5 @@
 import { combineReducers } from 'redux';
-
-import updateState from './cellReducer.js';
-
-
+import updateState from './cellReducer';
 
 const rootReducer = combineReducers({
   board: updateState,

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import Cell from './Cell.js';
-import revealCell from './revealAction.js';
+import Cell from './components/Cell';
+import revealCell from './actions/revealAction';
 
 const mapDispatchToProps = dispatch => ({
   handleClick: (e, index, y) => dispatch(revealCell(e, index, y)),

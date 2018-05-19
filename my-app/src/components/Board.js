@@ -1,13 +1,12 @@
 import React from 'react';
-import CellContainer from './CellContainer.js';
 import styled from 'styled-components';
 import { keyframes } from 'styled-components';
-import './App.css';
+import '../style/App.css';
+import CellContainer from '../CellContainer';
 
 const Board = (props) => {
   let initialComponent;
   const boardToRender = [];
-  console.log(props.board.board)
   if (props.board.board.lose) {
     initialComponent = 
     <div className="LOSS">

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import BoardContainer from './BoardContainer.js';
 import styled from 'styled-components';
 import { keyframes } from 'styled-components';
+import logo from '../logo.svg';
+import '../style/App.css';
+import BoardContainer from '../BoardContainer';
 
 class App extends Component {
   constructor(props) {
@@ -30,8 +30,8 @@ class App extends Component {
       padding: 2rem 1rem;
       font-size: 1.2rem;
     `;
-    const rotateComponent =  
-      <Rotate>   
+    const rotateComponent = 
+      <Rotate>  
         <table>
           <tbody className="Board">
             <BoardContainer />
